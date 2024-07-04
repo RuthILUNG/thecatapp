@@ -1,0 +1,28 @@
+body{
+    background-color:#457B9D;
+}
+
+.cat{
+    background-color:#E63946 ;
+    margin: 0.5em;
+    padding: 1em; 
+    border-radius: 1em;
+    border: 1px solid #1D3557;
+    flex: 1;
+
+}
+@media(min-width:960px){
+    .cat{
+        display: flex;
+    }
+}
+
+fieldset{
+    margin: 1em;
+    border:0;
+}
+button{
+    padding: 1em;
+    border:3px solid;
+    border-radius: 0.5em;
+}
